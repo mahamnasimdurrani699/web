@@ -1,54 +1,3 @@
-// import React from 'react'
-// import Slider from "react-slick"
-// // Import Slick Carousel CSS files
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
-
-// const Home = () => {
-//     const settings = {
-//         dots: false,
-//         infinite: true,
-//         slidesToShow: 1,
-//         autoplay: true,
-//         speed: 2000,
-//         autoplaySpeed: 2000,
-//         cssEase: "linear"
-//       };
-//   return (
-//     <div className='bg-ternary mt-2 px-4 md:px-16 lg:px-24'>
-//       <div className='container mx-auto py-4 flex flex-col md:flex-row space-x-2'>
-//         <div className='w-full md:w-9/12 mt-8 md:mt-0 h-96 relative'>
-//               <img src='public/eco5.webp' alt='' className='w-full h-full'/>
-//               <div className='absolute top-28 left-76'>
-//                 <p>Code With MAHAM DURANI</p>
-//                 <h2>WELCOME TO OUR ECOHUB WEB APP</h2>
-//                 <p>Million + Products</p>
-//                 <button>SHOP NOW</button>
-//               </div>
-//             <div>
-//             <div className="slider-container">
-//                           <Slider {...settings}>
-//                               <div>
-//                                   <img src='public/eco.jpg' alt=''></img>
-//                               </div>
-//                               <div>
-//                               <img src='public/eco2.jpg' alt=''></img>
-//                               </div>
-//                               <div>
-//                               <img src='public/eco3.jpg' alt=''></img>
-//                               </div>
-//                           </Slider>
-//                       </div> 
-//             </div>
-//         </div>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Home
-
 import React, { useEffect } from 'react'
 import Slider from "react-slick"
 // Import Slick Carousel CSS files
@@ -58,7 +7,7 @@ import InfoSection from '../components/InfoSection';
 import CategorySection from '../components/CategorySection';
 import { setProducts } from '../redux/productSlice';
 import { useDispatch, useSelector,} from 'react-redux';
-import { mockData } from '../assets/MockData';
+import { mockData } from '../assets/mockdata';
 import ProductCard from '../components/ProductCard';
 import Shop from './Shop';
 import { Link } from 'react-router-dom';
