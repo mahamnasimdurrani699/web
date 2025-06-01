@@ -1,18 +1,4 @@
-// import React from 'react'
 
-// const ChangeAddress = () => {
-//   return (
-//     <div>
-//       <input type='text' placeholder='Enter new Address' className='border mb-4 w-full p-2 border' ></input>
-//       <div className='justify-end'>
-//         <button className='bg-secondary px-2 py-4 text-white rounded mr-2'>Cancel</button>
-//         <button className='bg-secondary px-2 py-4 text-white rounded'>Save Address</button>
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default ChangeAddress
 import React, { useState } from 'react';
 
 const ChangeAddress = ({setAddress , setIsModelOpen }) => {

@@ -7,7 +7,7 @@ const Aboutus = () => {
         
       <div className="w-92 md:w-72 md:h-72 overflow-hidden rounded-full border-4 border-fourth shadow-md">
           <img
-            src="public/girl.jfif" 
+            src="/girl.jfif" 
             alt="Team"
             className="w-full h-full object-cover"
           />

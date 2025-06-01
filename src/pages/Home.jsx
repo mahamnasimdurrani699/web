@@ -46,7 +46,7 @@ const Home = () => {
       <div className="container mx-auto py-4 flex flex-col md:flex-row space-x-2">
       
         <div className="w-full md:w-4/12 mt-8 md:mt-0 h-96 relative">
-          <img src="public/eco5.webp" alt="" className="w-full h-full object-cover rounded-lg shadow-lg mt-2" />
+          <img src="/eco5.webp" alt="" className="w-full h-full object-cover rounded-lg shadow-lg mt-2" />
           
           <div className="absolute top-1/4 left-8 md:left-16 text-white space-y-4">
             <p className="text-xl font-semibold">Code With MAHAM DURANI</p>
@@ -64,15 +64,15 @@ const Home = () => {
             <Slider {...settings}>
               
               <div className="flex justify-center items-center p-2">
-                <img src="public/ec.jpg" alt="" className="w-full h-100 rounded-lg shadow-md" />
+                <img src="/ec.jpg" alt="" className="w-full h-100 rounded-lg shadow-md" />
               </div>
              
               <div className="flex justify-center items-center p-2">
-                <img src="public/ec1.jfif" alt="" className="w-full h-100 rounded-lg shadow-md" />
+                <img src="/ec1.jfif" alt="" className="w-full h-100 rounded-lg shadow-md" />
               </div>
 
               <div className="flex justify-center items-center p-2">
-                <img src="public/ec2.webp" alt="" className="w-full h-100 rounded-lg shadow-md" />
+                <img src="/ec2.webp" alt="" className="w-full h-100 rounded-lg shadow-md" />
               </div>
             </Slider>
           </div>

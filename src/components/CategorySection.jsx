@@ -2,15 +2,15 @@ import React from 'react'
 
 const categories = [
     {
-        img:'public/Women.jpg',
+        img:'/Women.jpg',
         title:"Women",
     },
     {
-        img:'public/Child.jpg',
+        img:'/Child.jpg',
         title:"Children",
     },
     {
-        img:'public/Mens.jpg',
+        img:'/Mens.jpg',
         title:"Mens",
     },
 ];
