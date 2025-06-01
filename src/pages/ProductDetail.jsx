@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { addToCart } from '../redux/cartSlice'; // Assuming you have a cartSlice for adding items
+import { addToCart } from '../redux/CartSlice.jsx'; // Assuming you have a cartSlice for adding items
 
 const ProductDetail = () => {
     const { id } = useParams();
