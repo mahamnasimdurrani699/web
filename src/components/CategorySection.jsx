@@ -6,7 +6,7 @@ const categories = [
         title:"Women",
     },
     {
-        img:'/Child.jpg',
+        img:'/child.jpg',
         title:"Children",
     },
     {
